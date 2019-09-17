@@ -18,6 +18,14 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
+			         <executions>
+          				<execution>
+              				<phase>test</phase>  
+              				<goals>
+               					<goal>java</goal>
+			               </goals>
+          				</execution>
+        			</executions>
 				<configuration>
 					<mainClass>javaApp.Test</mainClass>
 				</configuration>
